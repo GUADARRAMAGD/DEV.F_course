@@ -40,3 +40,24 @@ body {
     width: 90%;
     height: 80%;
 }
+.cuadroDerecho{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.derechoSuperior, .derechaInferior{
+    display: flex;
+    justify-content: flex-end;
+}
+.derechoSuperior{
+    width: 90%;
+    height: 40%;
+}
+.derechaInferior{
+    width: 90%;
+    height: 40%;
+    align-items: flex-end;
+}
